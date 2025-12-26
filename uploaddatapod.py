@@ -11,8 +11,8 @@ from datetime import datetime
 API_BASE_URL = "http://vps-2865504b.vps.ovh.net:8082/docket/api"
 UTILS_API_URL = "http://localhost:8082/api/utils"
 JWT_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkBtZWRhZnJpY2EuY29tIiwiaWF0IjoxNzY0MjM0OTk3LCJleHAiOjE3NjQzMjEzOTd9.ILj5BGIQBMR2tWJ0Vn0YYHvbNLS4YnN8WYYOIBWsGZ0"
-#DEST_DIR = r"C:\Users\Hamza Maanaoui\Desktop\Docket-med_VersionFinalAdapter\DocketFILE"
-DEST_DIR = r"Z:\Documents\Docket-med_VersionFinalAdapter\Docket-med55\docket-medaf\DossierLTA-POD\dockets"
+DEST_DIR = r"C:\Users\Hamza Maanaoui\Desktop\Docket-med_VersionFinalAdapter\DocketFILE"
+# r"Z:\Documents\Docket-med_VersionFinalAdapter\Docket-med55\docket-medaf\DossierLTA-POD\dockets"
 
 JSON_HEADERS = {
     "Authorization": f"Bearer {JWT_TOKEN}",
